@@ -15,7 +15,7 @@ class Song
     # newly_created_song.save
     # newly_created_song
 
-    song_object = Song.new.save
+    return song_object = Song.new.save
 
   end
 
